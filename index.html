@@ -10,6 +10,7 @@
         <link rel="stylesheet" style="text/css" href="resources/css/queries.css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
         <link href="https://unpkg.com/ionicons@4.5.10-1/dist/css/ionicons.min.css" rel="stylesheet">
+        
         <title>Omnifood</title>
     </head>
     <body>
@@ -17,6 +18,7 @@
             <nav>
                 <div class="row">
                     <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo" />
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black" />
                     <ul class="main-nav">
                         <li><a href="#">Food delivery</a></li>
                         <li><a href="#">How it works</a></li>
@@ -27,12 +29,12 @@
             </nav>
             <div class="hero-text-box">
                 <h1>Goodbye junk food.<br /> Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I’m hungry</a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <a class="btn btn-full js--scroll-to-plan" href="#">I’m hungry</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
             </div>
         </header>
         
-        <section class="section-features">
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">
@@ -244,7 +246,7 @@
             </div>
         </section>
         
-        <section class="section-plans">
+        <section class="section-plans js--section-plans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -399,6 +401,16 @@
                 <p>Copyright &copy; 2019 by Omnifood. All rights reserved.</p>
             </div>
         </footer>
+        
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv.min.js@3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
         <script src="https://unpkg.com/ionicons@4.5.10-1/dist/ionicons.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
     </body>
 </html>
